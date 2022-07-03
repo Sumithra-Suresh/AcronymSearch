@@ -1,0 +1,83 @@
+/*=======================================================================================*/
+/*                                  Global                                               */
+/*=======================================================================================*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{    
+    font-family: monospace, serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 50px;
+    color: #4d4d4d;
+    background-color: #fcfcfc;
+}
+
+.container{
+    width: 65%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 10px;
+}
+
+header{
+    margin: 20px;
+}
+/*=======================================================================================*/
+/*                                  Form                                                 */
+/*=======================================================================================*/
+
+.form-control {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+    height: 40px;
+    font-size: 1.01rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+    color: black;
+    background-color: #c0c0c0;
+}
+
+.form-control > *{
+    height: 40px;
+    padding-left: 10px;
+    background-color: #c0c0c0;
+}
+
+input[type=text]{
+    width: 85%;
+    text-transform: uppercase;
+    border: none;
+}
+
+::placeholder{
+    text-transform: none;
+}
+
+input[type=submit]{
+    width: 15%;
+    border: none;
+    background-color: #1292ce;
+}
+
+/*=======================================================================================*/
+/*                                  Match List                                           */
+/*=======================================================================================*/
+
+.match-list-control{
+    width: 460px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #999;
+}
+
+.primary{
+    color: #1292ce;
+}
